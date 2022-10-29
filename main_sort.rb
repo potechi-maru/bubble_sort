@@ -1,7 +1,6 @@
 def sort(array)
-  number_of_elements = array.length
   i = 0
-  minus_one = number_of_elements - 1
+  minus_one = array.length - 1
   minus_one.times do
     p array
     (minus_one - i).times do |point|
